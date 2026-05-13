@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 👕 SHIRT
 
 > Unleash Creativity, Transform Ideas into Reality Instantly
@@ -72,3 +73,4 @@ Clone and install dependencies:
 git clone https://github.com/deepanmpc/shirt
 cd shirt
 npm install
+```
