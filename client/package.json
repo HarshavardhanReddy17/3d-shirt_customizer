@@ -1,27 +1,29 @@
 {
-  "homepage":"https://LigthPeacock.github.io/ShirtWeb",
+  "homepage": "https://LigthPeacock.github.io/ShirtWeb",
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist ",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-   "preview": "vite preview",
-"start": "vite"
-
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
     "framer-motion": "^11.0.5",
+    "its-fine": "1.2.4",
     "maath": "^0.10.7",
+    "meshline": "3.1.6",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
+    "react-use-measure": "^2.1.6",
     "three": "^0.161.0",
     "valtio": "^1.13.1"
   },
